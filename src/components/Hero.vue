@@ -59,10 +59,9 @@ onMounted(() => {
   startIconAnimation()
 
   const placeholderTexts = [
-      'Front-End Web Developer',
-      'React Developer',
-      'Javascript Developer',
-      'Vue Developer'
+      'Mobile Developer',
+      'Android Developer',
+      'IOS Developer',
   ];
   let index = 0;
 
