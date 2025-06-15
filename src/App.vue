@@ -25,7 +25,6 @@ const handleThemeUpdate = (theme)=> {
   <MobileNavbar/>
   <Navbar @update:theme="handleThemeUpdate"/>
   <Hero :theme="currentTheme"/>
-  <AboutMe/>
   <Experience/>
   <Skill/>
   <Projects/>

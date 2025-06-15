@@ -17,21 +17,21 @@ const titleKey = ref(0);
 
 const icons = [
   {
-    component: '/smile.gif',
+    component: import.meta.env.BASE_URL + '/smile.gif',
     name: 'react',
     class: 'absolute top-0 lg:top-[-100px] left-[100px] sm:left-[180px] lg:left-[100px]',
     width: 50,
     height: 50
   },
   {
-    component: '/robot.gif',
+    component: import.meta.env.BASE_URL + '/robot.gif',
     name: 'vue',
     class: 'absolute top-0 lg:top-[-150px] sm:right-[150px] right-0 lg:right-[250px]',
     width: 150,
     height: 150
   },
   {
-    component: '/js.gif',
+    component: import.meta.env.BASE_URL + '/js.gif',
     name: 'js',
     class: 'absolute bottom-0 sm:bottom-[-70px] right-0 sm:right-[220px]',
     width: 70,
@@ -91,7 +91,7 @@ onUnmounted(() => {
     <!--   intro   -->
     <div class="w-full lg:w-[60%] pt-12 lg:pt-0 relative">
 
-      <p class="text-[1.5rem] font-[500] text-disableColor dark:text-darkDisableColor">Hi, I'm Asfak</p>
+      <p class="text-[1.5rem] font-[500] text-disableColor dark:text-darkDisableColor">Hi, I'm Fajar</p>
 
       <transition name="title-transition">
         <h1
@@ -102,16 +102,13 @@ onUnmounted(() => {
       </transition>
 
       <p class="text-disableColor dark:text-darkDisableColor text-[1rem] mt-2 w-full sm:w-[70%]">
-        I am Asfak Ahmed, a Front-End Web Developer with over two years of experience and the founder of ZenUI Library, a platform offering essential UI components and templates. Coding is my passion, and I excel at solving complex problems with creative solutions.
+        I am Fajar Subeki, a Mobile Developer with over 6 years of experience, a platform offering essential UI components and templates. Coding is my passion, and I excel at solving complex problems with creative solutions.
       </p>
 
       <div class="flex flex-col sm:flex-row sm:items-center gap-[15px] mt-8">
-        <a href="https://zcal.co/asfak00/discuss30" target="_blank" :class="styleGuide.buttonFill" class="py-2.5 w-max">
-          <Icon icon="hugeicons:calendar-03" width="22" height="22"/>
-          Schedule a meeting
-        </a>
-        <a href="#about-me" :class="styleGuide.buttonOutline" class="py-2.5 w-max">
-          About Me
+        <a href="https://www.linkedin.com/in/fajar-sastroredjo" target="_blank" :class="styleGuide.buttonFill" class="py-2.5 w-max">
+          <Icon icon="hugeicons:linkedin-01" width="22" height="22" color="white"/>
+          Connect
         </a>
       </div>
 
@@ -146,7 +143,7 @@ onUnmounted(() => {
       </div>
 
       <img alt="asfak/image"
-           :src="theme === 'light' ? 'https://i.ibb.co.com/hg3ZfKs/profile-picture.png' : 'https://i.ibb.co.com/Q876NqR/dark-picture.png'"
+           :src="theme === 'light' ? 'https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png' : 'https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png'"
            class="w-[450px]"/>
     </div>
   </Layout>

@@ -56,12 +56,6 @@ const toggleDescription = (description) => {
             <span class="capitalize">{{experience.end_date ? experience.end_date : 'present'}}</span>
           </p>
 
-          <p class="flex items-center flex-wrap text-disableColor dark:text-darkDisableColor gap-[5px] font-[400] text-[0.9rem]">
-            <span>{{experience.location}}</span>
-            <Icon icon="material-symbols-light:circle" width="6" height="6" class="text-gray-400"/>
-            <span class="capitalize">{{experience.is_onsite ? 'on-site' : 'remote'}}</span>
-          </p>
-
           <div class="text-[0.9rem] font-[400] dark:text-darkDisableColor text-disableColor mt-1">
 
             <template v-if="!expandedDescriptions[experience.description]">
