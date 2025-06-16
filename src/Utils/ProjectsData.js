@@ -1,52 +1,64 @@
 export const projectsData = [
     {
-        name: 'Goat Moves - Multi Vendor E-Commerce',
+        name: 'Brimo',
         description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
-        thumbnail: 'https://i.ibb.co.com/kcs3BSw/Screenshot-2.png',
+        thumbnail: 'https://virtualexpo.uptpkk.unp.ac.id/shop/public/uploads/all/WAoivwHOXm6h6s8cpIBWrAocTaL4JB8jsfnR7lTl.png',
         tags: [
+            'Kotlin',
             'nextJS',
             'tailwind CSS',
             'laravel',
             'ant design',
         ],
-        github: '',
-        live: 'https://goatmoves.com/'
+        type: 'Banking',
+        playstore: 'https://play.google.com/store/apps/details?id=id.co.bri.brimo&hl=en',
+        appstore: 'https://apps.apple.com/id/app/brimo-bri/id1439730817',
     },
     {
-        name: 'ZenUI - React/NextJS UI Library',
-        description: 'ZenUI is a Open-Source React and Tailwind CSS UI components library dedicated to providing developers with the tools they need to create stunning, responsive websites effortlessly. ZenUI aims to simplify the development process by offering a comprehensive collection of pre-built UI components, website templates, and more.',
-        thumbnail: 'https://i.ibb.co.com/3Sg4Zrg/Screenshot-2.png',
+        name: 'Brimola',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/70/78/f9707823-0565-6d8e-6a4f-eb6915f7fca6/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/460x0w.webp',
         tags: [
-            'reactJS',
-            'tailwind CSS',
-        ],
-        github: 'https://github.com/Asfak00/zenui-library',
-        live: 'https://zenui.net/'
-    },
-    {
-        name: 'Doplac CRM',
-        description: 'I contributed to the development of a comprehensive CRM product designed specifically for digital agencies. As a Front-End Developer, I played a pivotal role in building and enhancing various tools within the CRM, including a CMS builder, email builder, client portal, project management etc. My contributions focused on ensuring a seamless user experience, intuitive interfaces, and robust functionality across all these tools.',
-        thumbnail: 'https://i.ibb.co.com/YhRyL2p/Screenshogagt-2.png',
-        tags: [
-            'vueJS',
+            'Kotlin, Swift',
+            'nextJS',
             'tailwind CSS',
             'laravel',
-            'PHP'
+            'ant design',
         ],
-        github: '',
-        live: 'https://www.doplac.com/'
+        type: 'Business',
+        playstore: 'https://play.google.com/store/apps/details?id=id.co.bri.brimo&hl=en',
+        appstore: 'https://apps.apple.com/id/app/brimo-bri/id1439730817',
     },
     {
-        name: 'Resume Builder Application',
-        description: 'With the Resume Builder app, creating a professional resume has never been easier. Customize your resume effortlessly by choosing your preferred font colors, adding photos if desired, or leaving them out for a clean look. Once you\'re satisfied with your design, download your resume for free. ',
-        thumbnail: 'https://i.ibb.co.com/x6xgZcH/resume-Builder.png',
+        name: 'Em-HR Mobile',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/92/95/709295fa-6fcb-f5db-e754-cd096362691a/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/460x0w.webp',
         tags: [
-            'reactJS',
-            'SASS',
-            'jsPDF',
-            'html2canvas',
+            'Kotlin Multiplatform',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
         ],
-        github: 'https://github.com/Asfak00/resume-builder-app',
-        live: 'https://one-resume-builder.netlify.app/'
+        type: 'HRIS',
+        playstore: 'https://play.google.com/store/apps/details?id=id.co.empore.emhrmobile&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/em-hr-mobile/id1550924123',
     },
+    {
+        name: 'MViCall',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://play-lh.googleusercontent.com/eBf1IWysid70IS6VCwikKzvzuGRAky8MzRHP3htMkHx0kz3AHAWfQ88QG1KzSrDZY14=w480-h960-rw',
+        tags: [
+            'React Native',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
+        ],
+        type: 'Video Calls',
+        playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
+    },
+    
+    
 ]

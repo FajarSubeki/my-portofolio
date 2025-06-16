@@ -26,7 +26,7 @@ watch(()=> activeTab.value,
 
 <template>
   <Layout id="skills" class="dark:bg-darkBgColor pt-12 lg:pt-5 transition-all duration-500">
-    <div class="w-max mx-auto pt-12 flex flex-col items-end">
+    <div class="w-max mx-auto pt-16 flex flex-col items-end">
       <h4 class="text-[2.2rem] font-[600] text-textColor dark:text-darkTextColor text-center">Skills</h4>
 
       <!--   line   -->
@@ -38,18 +38,18 @@ watch(()=> activeTab.value,
 
       <div :class="activeTab === 'front_end' ?'translate-x-[2%]' : activeTab === 'back_end' ? 'translate-x-[105%]' : activeTab === 'framework' ? 'translate-x-[209%]' : 'translate-x-[97.5%]'" class="bg-highlightPrimary/10 dark:bg-highlightPrimary/50 absolute h-[85%] rounded-full top-[50%] w-[50%] transform transition-all duration-700 translate-y-[-50%]"></div>
 
-      <button class="py-3.5 px-4 text-center dark:text-darkTextColor text-[1rem] font-[400] transition-all duration-700" :class="activeTab === 'front_end' && 'text-highlightPrimary'" @click="handleActiveTab('front_end')">Front-End</button>
+      <button class="py-3.5 px-4 text-center dark:text-darkTextColor text-[1rem] font-[400] transition-all duration-700" :class="activeTab === 'front_end' && 'text-highlightPrimary'" @click="handleActiveTab('front_end')">Tech Stack</button>
 <!--      <button class="py-3.5 px-4 text-center dark:text-darkTextColor text-[1rem] font-[400] transition-all duration-700" :class="activeTab === 'back_end' && 'text-highlightPrimary'" @click="handleActiveTab('back_end')">Back-End</button>-->
 <!--      <button class="py-3.5 px-4 text-center dark:text-darkTextColor text-[1rem] font-[400] transition-all duration-700" :class="activeTab === 'framework' && 'text-highlightPrimary'" @click="handleActiveTab('framework')">Framework</button>-->
       <button class="py-3.5 px-4 text-center dark:text-darkTextColor text-[1rem] font-[400] transition-all duration-700" :class="activeTab === 'tools' && 'text-highlightPrimary'" @click="handleActiveTab('tools')">Tools</button>
     </div>
 
-    <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-[15px]">
+    <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-[15px]">
       <div v-for="skill in filteredSkills">
-        <div class="border-[2px] border-dashed border-borderColor/80 hover:border-highlightPrimary transition-all duration-300 cursor-pointer rounded-md px-3 py-4 flex flex-col items-center justify-center group dark:border-darkBorderColor dark:hover:border-highlightPrimary">
+        <div class="border-[2px] border-dashed border-borderColor/80 hover:border-highlightPrimary transition-all duration-300 cursor-pointer rounded-md px-0 py-4 flex flex-col items-center justify-center group dark:border-darkBorderColor dark:hover:border-highlightPrimary">
           <img alt="icon" class="w-[32px] h-[32px] object-cover rounded-md group-hover:scale-[1.2] transition-all duration-300" v-if="skill.icon.startsWith('https')" :src="skill.icon"/>
           <div v-html="skill.icon" v-else class="w-[32px] h-[32px] group-hover:scale-[1.2] transition-all duration-300"></div>
-          <p class="text-[1rem] dark:text-darkTextColor capitalize mt-2 font-[500] text-textColor">{{skill.name}}</p>
+          <p class="text-[0.9rem] dark:text-darkTextColor capitalize mt-2 font-[500] text-textColor">{{skill.name}}</p>
         </div>
       </div>
     </div>

@@ -7,6 +7,6 @@ const currentYear = new Date().getFullYear()
 
 <template>
   <Layout class="max-w-full dark:border-darkBorderColor border-t dark:bg-darkBgColor border-borderColor py-5">
-    <p class="text-[0.9rem] text-disableColor dark:text-darkDisableColor text-center">Copyright © {{ currentYear }} by Asfak Ahmed.</p>
+    <p class="text-[0.9rem] text-disableColor dark:text-darkDisableColor text-center">Copyright © {{ currentYear }} by Fajar Subeki.</p>
   </Layout>
 </template>

@@ -54,18 +54,13 @@ const handleNavitemClick = (tab) => {
 
       <div class="flex items-center gap-[35px]">
 
-        <a href="#about-me" :class="activeTab === 'about_me' && '!text-highlightPrimary'"  @click="handleNavitemClick('about_me')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">About Me</a>
-
         <a href="#experience" :class="activeTab === 'experience' && '!text-highlightPrimary'"  @click="handleNavitemClick('experience')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Experience</a>
 
         <a href="#skills" :class="activeTab === 'skills' && '!text-highlightPrimary'"  @click="handleNavitemClick('skills')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Skills</a>
 
         <a href="#projects" :class="activeTab === 'projects' && '!text-highlightPrimary'"  @click="handleNavitemClick('projects')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Projects</a>
 
-        <a href="#blogs" :class="activeTab === 'blogs' && '!text-highlightPrimary'"  @click="handleNavitemClick('blogs')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Blogs</a>
-
-        <a href="#achievements" :class="activeTab === 'achievements' && '!text-highlightPrimary'"  @click="handleNavitemClick('achievements')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Achievements</a>
-      </div>
+       </div>
 
       <div class="flex items-center gap-[15px]">
         <button @click="handleThemeChange" class="border overflow-hidden dark:border-darkTextColor border-gray-300 rounded-md h-[42px] py-2 px-3">
@@ -75,7 +70,6 @@ const handleNavitemClick = (tab) => {
           <Icon :class="currentTheme === 'dark' ? 'opacity-100 translate-y-[-24px]' : 'opacity-0 translate-y-[20px] z-[-1]'"  icon="material-symbols-light:dark-mode" class="transition-all duration-700 dark:text-darkTextColor" width="24" height="24" />
 
         </button>
-        <button :class="styleGuide.buttonOutline"><a download="resume" href="/resume.pdf">Resume</a></button>
       </div>
     </div>
 

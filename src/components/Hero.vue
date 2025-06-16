@@ -142,8 +142,8 @@ onUnmounted(() => {
         <p class="text-disableColor dark:text-darkDisableColor text-[0.7rem] sm:text-[0.9rem]">Years of experience</p>
       </div>
 
-      <img alt="asfak/image"
-           :src="theme === 'light' ? 'https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png' : 'https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png'"
+      <img alt="fajar/image"
+           :src="theme === 'light' ? 'https://i.imghippo.com/files/vcpB2825lw.jpg' : 'https://i.imghippo.com/files/vcpB2825lw.jpg'"
            class="w-[450px]"/>
     </div>
   </Layout>

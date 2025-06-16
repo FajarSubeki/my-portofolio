@@ -28,8 +28,6 @@ const handleThemeUpdate = (theme)=> {
   <Experience/>
   <Skill/>
   <Projects/>
-  <Blogs/>
-  <Achievements/>
   <Footer/>
 </div>
 

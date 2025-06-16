@@ -20,16 +20,32 @@ const toggleDescription = (projectName) => {
 </script>
 
 <template>
-  <Layout id="projects" class="dark:bg-darkBgColor pt-8 transition-all duration-500">
+  <Layout id="projects" class="dark:bg-darkBgColor pt-8 pb-24 transition-all duration-500">
     <div class="w-max mx-auto pt-12 flex flex-col items-end">
-      <h4 class="text-[2.2rem] font-[600] text-textColor dark:text-darkTextColor text-center">Projects</h4>
+      <h4 class="text-[2.2rem] font-[600] text-textColor dark:text-darkTextColor text-center">My Projects</h4>
 
       <!--   line   -->
       <div class="w-[50%] h-[2px] bg-highlightColor"></div>
       <div class="w-[70%] h-[3px] bg-highlightPrimary mt-1"></div>
     </div>
+    
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 mt-12">
+      <div v-for="project in projectsData"
+          :key="project.name"
+          class="flex flex-col items-center p-4 bg-white rounded-2xl transition duration-300 h-[299px]"
+          style="box-shadow: 0 2px 4px rgba(0,0,0,0.08), 0 -2px 4px rgba(0,0,0,0.08), 2px 0 4px rgba(0,0,0,0.08), -2px 0 4px rgba(0,0,0,0.08);">
+          
+        <img :src="project.thumbnail" alt="icon" class="w-45 h-45 object-cover rounded-xl mb-3" />
+        
+        <h3 class="text-lg font-bold text-gray-800">{{ project.name }}</h3>
+        <p class="text-sm text-gray-500">{{ project.type }}</p>
+        <div class="border mt-1 rounded-md dark:text-darkDisableColor dark:border-darkBorderColor capitalize px-2 py-1 text-[0.8rem] text-disableColor border-borderColor">
+           {{project.tags[0]}}
+        </div>
+      </div>
+    </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] mt-12">
+    <!-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] mt-12">
       <div v-for="project in projectsData" :key="project.name" class="border dark:border-darkBorderColor border-borderColor rounded-md">
 
         <div class="h-[150px] lg:h-[210px] overflow-hidden rounded-t-md">
@@ -89,6 +105,6 @@ const toggleDescription = (projectName) => {
 
         </div>
       </div>
-    </div>
+    </div> -->
   </Layout>
 </template>

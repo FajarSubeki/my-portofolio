@@ -67,21 +67,12 @@ const handleNavitemClick = (tab) => {
 
     <a href="#home" :class="activeTab === 'home' && '!text-highlightPrimary'" @click="handleNavitemClick('home')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Home</a>
 
-    <a href="#about-me" :class="activeTab === 'about_me' && '!text-highlightPrimary'"  @click="handleNavitemClick('about_me')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">About Me</a>
-
     <a href="#experience" :class="activeTab === 'experience' && '!text-highlightPrimary'"  @click="handleNavitemClick('experience')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Experience</a>
 
     <a href="#skills" :class="activeTab === 'skills' && '!text-highlightPrimary'"  @click="handleNavitemClick('skills')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Skills</a>
 
     <a href="#projects" :class="activeTab === 'projects' && '!text-highlightPrimary'"  @click="handleNavitemClick('projects')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Projects</a>
 
-    <a href="#blogs" :class="activeTab === 'blogs' && '!text-highlightPrimary'"  @click="handleNavitemClick('blogs')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Blogs</a>
-
-    <a href="#achievements" :class="activeTab === 'achievements' && '!text-highlightPrimary'"  @click="handleNavitemClick('achievements')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Achievements</a>
-
-    <div class="flex items-center gap-[15px]">
-      <button :class="styleGuide.buttonOutline"><a download="resume" href="/resume.pdf">Resume</a></button>
-    </div>
   </div>
   </transition>
 </template>
