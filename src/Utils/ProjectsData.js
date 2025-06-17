@@ -189,6 +189,24 @@ export const projectsData = [
 
         ],
     },
-    
+    {
+        name: 'Carswold',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://carsworld.co.id/wp-content/themes/carsworld-catalog/img/icons/favicon.png',
+        tags: [
+            'React Native',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
+        ],
+        type: 'Automotive',
+        playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
+        github: '',
+        gallery: [
+
+        ],
+    },
     
 ]
