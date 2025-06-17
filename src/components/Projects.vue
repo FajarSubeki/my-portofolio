@@ -22,7 +22,7 @@ const toggleDescription = (projectName) => {
 <template>
   <Layout id="projects" class="dark:bg-darkBgColor pt-8 pb-24 transition-all duration-500">
     <div class="w-max mx-auto pt-12 flex flex-col items-end">
-      <h4 class="text-[2.2rem] font-[600] text-textColor dark:text-darkTextColor text-center">My Projects</h4>
+      <h4 class="text-[2.2rem] font-[600] text-textColor dark:text-darkTextColor text-center">My Portofolio</h4>
 
       <!--   line   -->
       <div class="w-[50%] h-[2px] bg-highlightColor"></div>

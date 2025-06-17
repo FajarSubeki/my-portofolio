@@ -58,7 +58,7 @@ const handleNavitemClick = (tab) => {
 
         <a href="#skills" :class="activeTab === 'skills' && '!text-highlightPrimary'"  @click="handleNavitemClick('skills')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Skills</a>
 
-        <a href="#projects" :class="activeTab === 'projects' && '!text-highlightPrimary'"  @click="handleNavitemClick('projects')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Projects</a>
+        <a href="#projects" :class="activeTab === 'projects' && '!text-highlightPrimary'"  @click="handleNavitemClick('projects')" class="text-[1.1rem] font-[400] dark:text-darkTextColor dark:hover:text-highlightPrimary text-textColor hover:text-highlightPrimary transition duration-300">Portofolio</a>
 
        </div>
 

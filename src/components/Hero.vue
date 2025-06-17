@@ -102,7 +102,7 @@ onUnmounted(() => {
       </transition>
 
       <p class="text-disableColor dark:text-darkDisableColor text-[1rem] mt-2 w-full sm:w-[70%]">
-        I am Fajar Subeki, a Mobile Developer with over 6 years of experience, a platform offering essential UI components and templates. Coding is my passion, and I excel at solving complex problems with creative solutions.
+        I am Fajar Subeki, a Mobile Developer with over 6 years of experience who has successfully released apps on both the Play Store and App Store, delivering significant contributions and impactful results aligned with company goals and user needs.
       </p>
 
       <div class="flex flex-col sm:flex-row sm:items-center gap-[15px] mt-8">
@@ -131,14 +131,14 @@ onUnmounted(() => {
       <!--   projects card   -->
       <div
           class="bg-white dark:bg-slate-900 animation-bounce rounded-md py-1 sm:py-2.5 px-5 sm:px-11 absolute shadow-sm top-[80px] sm:top-[150px] left-[-50px] sm:left-[0px] w-max flex transition-all duration-300 flex-col items-center justify-center">
-        <h6 class="text-[1.2rem] sm:text-[1.8rem] font-[600] text-highlightPrimary leading-[35px]">5+</h6>
-        <p class="text-disableColor dark:text-darkDisableColor text-[0.7rem] sm:text-[0.9rem]">Satisfied clients</p>
+        <h6 class="text-[1.2rem] sm:text-[1.8rem] font-[600] text-highlightPrimary leading-[35px]">22+</h6>
+        <p class="text-disableColor dark:text-darkDisableColor text-[0.7rem] sm:text-[0.9rem]">Projects</p>
       </div>
 
       <!--   experience card   -->
       <div
           class="bg-white dark:bg-slate-900 animation-bounce2 rounded-md py-1 sm:py-2.5 px-4 sm:px-8 absolute shadow-sm bottom-[20px] sm:bottom-[50px] left-[-30px] sm:left-[30px] w-max flex transition-all duration-300 flex-col items-center justify-center">
-        <h6 class="text-[1.2rem] sm:text-[1.8rem] font-[600] text-highlightColor leading-[35px]">2+</h6>
+        <h6 class="text-[1.2rem] sm:text-[1.8rem] font-[600] text-highlightColor leading-[35px]">6+</h6>
         <p class="text-disableColor dark:text-darkDisableColor text-[0.7rem] sm:text-[0.9rem]">Years of experience</p>
       </div>
 
