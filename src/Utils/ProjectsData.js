@@ -116,7 +116,7 @@ export const projectsData = [
     {
         name: 'MViCall',
         description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
-        thumbnail: 'https://play-lh.googleusercontent.com/eBf1IWysid70IS6VCwikKzvzuGRAky8MzRHP3htMkHx0kz3AHAWfQ88QG1KzSrDZY14=w480-h960-rw',
+        thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/8a/d6/ee/8ad6ee4f-4d17-12ae-7c9d-6f5a667ac607/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp',
         tags: [
             'React Native',
             'nextJS',
@@ -208,5 +208,99 @@ export const projectsData = [
 
         ],
     },
-    
+    {
+        name: 'NF Juara',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://play-lh.googleusercontent.com/hxlZgbFFTODT8Bq-DGRDKCA3lQSiPMZTDr33hbl-_j2uluc_C-e8ZxWLQRdrjbTNbRot',
+        tags: [
+            'Kotlin, Java',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
+        ],
+        type: 'Online Course',
+        playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
+        github: '',
+        gallery: [
+
+        ],
+    },
+    {
+        name: 'Manstore',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl1E1ycADLM4JSVTdHxIUynYqfHp0Ztt7JYJM4nbqohvWIdva8hNRtz7pBkOBoNgQFxp8&usqp=CAU',
+        tags: [
+            'Kotlin',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
+        ],
+        type: 'Shopping',
+        playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
+        github: '',
+        gallery: [
+
+        ],
+    },
+    {
+        name: 'Shopnow',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://t3.ftcdn.net/jpg/14/52/94/36/360_F_1452943661_qI8YC9iT48c19XiWIlohD57PfzT0BqcQ.jpg',
+        tags: [
+            'Flutter',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
+        ],
+        type: 'Korean Shop',
+        playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
+        github: '',
+        gallery: [
+
+        ],
+    },
+    {
+        name: 'Removie',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://images.sftcdn.net/images/t_app-icon-m/p/e4826ea5-125c-4f9d-bbb4-a0de81f5a0f0/3363315856/film-app-apk-guia-moviles-logo',
+        tags: [
+            'React Native',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
+        ],
+        type: 'Movie',
+        playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
+        github: '',
+        gallery: [
+
+        ],
+    },
+    {
+        name: 'Degames',
+        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        thumbnail: 'https://w7.pngwing.com/pngs/24/817/png-transparent-playstation-4-raiders-of-the-broken-planet-playstation-network-playstation-plus-playstation-electronics-text-trademark.png',
+        tags: [
+            'Flutter',
+            'nextJS',
+            'tailwind CSS',
+            'laravel',
+            'ant design',
+        ],
+        type: 'Games',
+        playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
+        appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
+        github: '',
+        gallery: [
+
+        ],
+    },
 ]

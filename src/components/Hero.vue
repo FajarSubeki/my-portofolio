@@ -12,7 +12,7 @@ const props = defineProps({
   }
 })
 
-const titleText = ref("Front-End Web Developer");
+const titleText = ref("Mobile Developer");
 const titleKey = ref(0);
 
 const icons = [
@@ -59,9 +59,10 @@ onMounted(() => {
   startIconAnimation()
 
   const placeholderTexts = [
-      'Mobile Developer',
       'Android Developer',
       'IOS Developer',
+      'Flutter Developer',
+      'React Native Developer',
   ];
   let index = 0;
 
