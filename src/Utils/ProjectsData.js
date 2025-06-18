@@ -5,17 +5,20 @@ export const projectsData = [
         thumbnail: 'https://virtualexpo.uptpkk.unp.ac.id/shop/public/uploads/all/WAoivwHOXm6h6s8cpIBWrAocTaL4JB8jsfnR7lTl.png',
         tags: [
             'Kotlin',
-            'nextJS',
-            'tailwind CSS',
-            'laravel',
-            'ant design',
+            'Compose',
+            'Hilt',
+            'Coroutines',
+            'Retrofit',
         ],
         type: 'Banking',
         playstore: 'https://play.google.com/store/apps/details?id=id.co.bri.brimo&hl=en',
         appstore: 'https://apps.apple.com/id/app/brimo-bri/id1439730817',
         github: '',
         gallery: [
-
+            'https://play-lh.googleusercontent.com/tERifK6a5054wUAxlaBoSV3xyQ_Cay9EAYHXh0627erVriV-fs0f_Kpeau6-24rlSA=w5120-h2880-rw',
+            'https://play-lh.googleusercontent.com/zhf_FlUQmkz_7GR7nsLuXe6Hghm4k0AQ0vgdQEDODav_0QWUagW8_XulsuyrikriJhsY=w5120-h2880-rw',
+            'https://play-lh.googleusercontent.com/Q4aS0NL0D-ME5hd1ql2zw8cNSklXNSepyJkMOF-ERQeU_V2qght4vWJ8oaUTyxVG09A=w5120-h2880-rw',
+            'https://play-lh.googleusercontent.com/aPZcZNkTCuFA8Dy_iuAtBVRqKjoC9F2XIPMIemJGJRt81Yqon6NHR7XKgAPnd04_MQ=w5120-h2880-rw'
         ],
     },
     {
@@ -40,7 +43,7 @@ export const projectsData = [
     {
         name: 'Smart Billing',
         description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
-        thumbnail: 'https://play-lh.googleusercontent.com/C1sRToqZvErZ-BYGpRNPkvGpGPjrBlMqlFjNMb8D8JfOJX-7LZwtGm-GDrxB_dcqXQ=w480-h960-rw',
+        thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/84/91/d08491f8-3fdf-7c27-acb0-d98b7df0e3f2/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.jpeg/460x0w.webp',
         tags: [
             'Flutter',
             'nextJS',
@@ -100,17 +103,23 @@ export const projectsData = [
         thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/92/95/709295fa-6fcb-f5db-e754-cd096362691a/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/460x0w.webp',
         tags: [
             'Kotlin Multiplatform',
-            'nextJS',
-            'tailwind CSS',
-            'laravel',
-            'ant design',
+            'Ktor',
+            'Coroutines',
+            'Koin',
+            'Compose',
+            'Navigation',
+            'Swift UI / UI Kit',
         ],
         type: 'HRIS',
         playstore: 'https://play.google.com/store/apps/details?id=id.co.empore.emhrmobile&pcampaignid=web_share',
         appstore: 'https://apps.apple.com/id/app/em-hr-mobile/id1550924123',
         github: '',
         gallery: [
-
+            'https://play-lh.googleusercontent.com/Eua53LulLBI9fHnR63C3Acz3gtEh0M1i5VyCjA7T27-bk7VHrUk7gc573LRSYR44MqQ=w5120-h2880-rw',
+            'https://play-lh.googleusercontent.com/q8sHez9yAGDqrE4m3JED5gQznKd7QCsEdgdWw4xSvyTNbEhoE81bGjPvPln4pmCbjvP_=w5120-h2880-rw',
+            'https://play-lh.googleusercontent.com/9gfTwm_EnZf6TCnLFFQOEBRfPTV04Xp_O9jRlKKw7QrcKE8D5YUBV_R87U1UAx8QWgk=w5120-h2880-rw',
+            'https://play-lh.googleusercontent.com/kxhx5qT5mEdPgVs-rSlOyfvcI44hGD1t3HFBBifKOdUJebtGKsxRCNX54_WYqX1fkIM=w5120-h2880-rw',
+            'https://play-lh.googleusercontent.com/zTo4BKzZc9mCzy2HgLZIU_mVyFD68Qk9fPTqAzVncax1NZocbVe4nAoHljeTsFGlDQ=w5120-h2880-rw',
         ],
     },
     {
@@ -119,17 +128,22 @@ export const projectsData = [
         thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/8a/d6/ee/8ad6ee4f-4d17-12ae-7c9d-6f5a667ac607/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp',
         tags: [
             'React Native',
-            'nextJS',
-            'tailwind CSS',
-            'laravel',
-            'ant design',
+            'Zustand',
+            'Typescript',
+            'Axios',
+            'React Query',
+            'MMKV'
         ],
         type: 'Video Calls',
         playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
         appstore: 'https://apps.apple.com/id/app/mvicall/id1439159035',
         github: '',
         gallery: [
-
+            'https://www.mvicall.com/wp-content/uploads/2020/10/SS-home-ID.png',
+            'https://www.mvicall.com/wp-content/uploads/2020/10/SS-incoming-ID.png',
+            'https://www.mvicall.com/wp-content/uploads/2020/10/SS-marketplace-ID.png',
+            'https://www.mvicall.com/wp-content/uploads/2020/10/SS-profil-ID.png',
+            'https://www.mvicall.com/wp-content/uploads/2020/10/SS-Friends-ID.png'
         ],
     },
     {
