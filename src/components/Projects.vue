@@ -56,7 +56,7 @@ const closeModal = () => {
       <div v-for="project in projectsData"
           :key="project.name"
           @click="openModal(project)"
-          class="flex flex-col items-center p-4 bg-white rounded-2xl transition duration-300 h-[299px]"
+          class="cursor-pointer flex flex-col items-center p-4 bg-white rounded-2xl transition duration-300 h-[299px]"
           style="box-shadow: 0 2px 4px rgba(0,0,0,0.08), 0 -2px 4px rgba(0,0,0,0.08), 2px 0 4px rgba(0,0,0,0.08), -2px 0 4px rgba(0,0,0,0.08);">
           
         <img :src="project.thumbnail" alt="icon" class="w-45 h-45 object-cover rounded-xl mb-3" />
