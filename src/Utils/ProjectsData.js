@@ -1,7 +1,7 @@
 export const projectsData = [
     {
         name: 'Brimo',
-        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        description: 'BRImo is a mobile banking app from Bank BRI, trusted by over 35 million users in Indonesia. It offers a seamless digital banking experience, enabling users to register and open accounts fully online—even from abroad using international phone numbers. BRImo supports international transfers to 160+ countries and QR payments overseas, such as in Singapore. The app also covers lifestyle needs, from game vouchers and streaming to travel bookings and Liga 1 tickets. Users can manage investments like pensions, gold, and stocks directly within the app. Daily transactions such as bill payments, e-wallet top-ups, and QRIS payments are simplified, with added benefits like real-time cashback and BRIpoin rewards. BRImo also offers 24/7 customer service via free call and in-app chat for a complete and convenient banking solution.',
         thumbnail: 'https://virtualexpo.uptpkk.unp.ac.id/shop/public/uploads/all/WAoivwHOXm6h6s8cpIBWrAocTaL4JB8jsfnR7lTl.png',
         tags: [
             'Kotlin',
@@ -23,21 +23,21 @@ export const projectsData = [
     },
     {
         name: 'Brimola',
-        description: 'I contributed as a Front-End Developer to this collaborative project for my company. The project involved building a fully responsive multi-vendor e-commerce website. The platform includes a comprehensive range of functionalities, from seamless payment integration to user-friendly navigation and design. My role focused on delivering a smooth, responsive experience across devices while ensuring high performance and accessibility.',
+        description: 'BRIMOLA is a mobile application designed for ordering 3kg Pertamina Elpiji gas from distributors (Pangkalan) to agents in a fast, easy, and efficient manner. It offers several key advantages for distributors, including real-time access to Elpiji quota information, a simple and convenient online ordering process, and reduced risk of errors during order entry. With BRIMOLA, gas ordering becomes more accurate and streamlined, helping distributors manage their supply more effectively.',
         thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/70/78/f9707823-0565-6d8e-6a4f-eb6915f7fca6/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/460x0w.webp',
         tags: [
             'Kotlin, Swift',
-            'nextJS',
-            'tailwind CSS',
-            'laravel',
-            'ant design',
+            'Koil',
+            'Coroutines',
+            'Retrofit',
+            'Jetpack',
         ],
         type: 'Order Gas',
         playstore: 'https://play.google.com/store/apps/details?id=id.co.bri.brimola&pcampaignid=web_share',
         appstore: 'https://apps.apple.com/id/app/brimola/id1462786205',
         github: '',
         gallery: [
-
+            'https://drive.usercontent.google.com/download?id=1TWSi8ZhKVbKxMqEX4M20wyuSyOXkfYG9&export=view&authuser=0'
         ],
     },
     {
