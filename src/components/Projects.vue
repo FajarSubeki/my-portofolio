@@ -69,7 +69,8 @@ const closeModal = () => {
       </div>
     </div>
 
-    <div v-if="showModal" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+    <div v-if="showModal" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50" 
+      @click.self="closeModal">
       <div class="bg-white rounded-2xl shadow-lg pl-10 pt-10 pb-10 pr-10 w-[1200px] max-w-full relative flex gap-6">
         <button @click="closeModal" class="absolute top-2 right-5 text-gray-500 text-4xl">×</button>
 
