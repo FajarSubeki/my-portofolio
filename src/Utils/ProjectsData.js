@@ -56,7 +56,7 @@ export const projectsData = [
         tags: [
             'Flutter',
             'Dio',
-            'Bloc',
+            'Riverpod',
             'Hive',
             'Flutter Secure Storage',
             'Get It'
@@ -123,7 +123,11 @@ export const projectsData = [
         description: 'Em-HR Mobile is an intelligent Human Resource application designed to streamline and enhance your HR business processes. It offers a wide range of modules, including attendance and visit tracking, leave management, overtime requests, payment requests, medical claims, business trip management, and digital payslips. Additionally, it supports facility management, provides access to company news, product updates, and memos, and facilitates a smooth exit interview process—making it a comprehensive solution for modern HR needs.',
         thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/92/95/709295fa-6fcb-f5db-e754-cd096362691a/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/460x0w.webp',
         tags: [
-            'Kotlin Multiplatform',
+            'Flutter',
+            'Riverpod',
+            'Dio',
+            'Get It',
+            'Kotlin Multiplatform (Try another tech just for add skill) =>',
             'Ktor',
             'Coroutines',
             'Koin',
@@ -150,12 +154,13 @@ export const projectsData = [
         description: 'MviCall is an innovative and trending mobile app that allows you to display a video of your choice—whether from your gallery, the MviCall Marketplace, or a self-recorded clip—directly on your friend’s phone when you call them. Packed with exciting features like Video Ringtone (Videotone), Video Alarm, customizable status updates, personal contact-based video messages, and a rich video collection, MviCall brings a new level of personalization to your calling experience. Users can also explore trending videos through Live Explore, access exclusive content from creators in the Marketplace, and earn rewards through sharing and engagement. With integration to your phone number and contacts, MviCall ensures a seamless way to stay connected with a personal and entertaining touch.',
         thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/8a/d6/ee/8ad6ee4f-4d17-12ae-7c9d-6f5a667ac607/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp',
         tags: [
-            'React Native',
-            'Zustand',
-            'Typescript',
-            'Axios',
-            'React Query',
-            'MMKV'
+            'Flutter',
+            'Dio',
+            'Riverpod',
+            'Hive',
+            'Flutter Secure Storage',
+            'Get It',
+            'GraphQL'
         ],
         type: 'Video Calls',
         playstore: 'https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&pcampaignid=web_share',
@@ -175,7 +180,7 @@ export const projectsData = [
         thumbnail: 'https://play-lh.googleusercontent.com/e7lPZ7bpmEYOQfRjL9KfB9DKc5Zt9Xiz0XAdqq7D2fwJBkYdNAJbGRxLNvDOjd2BXVI=w480-h960-rw',
         tags: [
             'Flutter',
-            'Provider',
+            'Riverpod',
             'Dio',
             'Get It',
         ],
@@ -261,10 +266,11 @@ export const projectsData = [
         description: 'NF Juara is the most affordable UTBK Tryout application in Indonesia, offering comprehensive online tutoring with a structured curriculum, over 500,000 practice questions, 11,000+ engaging learning videos, and dozens of Super Intensive Tryouts to help students confidently prepare for the 2025 UTBK SNBT and Independent Exams. Key features include high-quality tryouts with accurate scoring systems, real-time SNBP Rationalization to predict your admission chances, Instant Tryouts for quick practice, and a "Consul" feature that allows students to consult directly with experienced NF teachers for better understanding and guidance.',
         thumbnail: 'https://play-lh.googleusercontent.com/hxlZgbFFTODT8Bq-DGRDKCA3lQSiPMZTDr33hbl-_j2uluc_C-e8ZxWLQRdrjbTNbRot',
         tags: [
-            'Kotlin, Java',
-            'MVP',
-            'Hilt',
-            'Retrofit',
+            'Flutter',
+            'Bloc',
+            'Dio',
+            'Get It',
+            'Json Serializable'
         ],
         type: 'Online Course',
         playstore: 'https://play.google.com/store/apps/details?id=id.co.nurulfikri.nfjuara',
