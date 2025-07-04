@@ -87,7 +87,7 @@ export const skillsData = [
         name: 'Realm,Room,Hive,MMKV',
         label: 'Professional',
         group: 'front_end',
-        icon: 'https://static-00.iconduck.com/assets.00/realm-icon-2048x2048-1fcbuxa4.png'
+        icon: 'https://img.stackshare.io/service/1140/realm_logo_200_x_200.png'
     },
     {
         name: 'javascript,typescript',
@@ -111,13 +111,13 @@ export const skillsData = [
         name: 'Laravel',
         label: 'Professional',
         group: 'front_end',
-        icon: 'https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png'
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png'
     },
     {
-        name: 'CodeIgneter',
+        name: 'NextJS',
         label: 'Professional',
         group: 'front_end',
-        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIckH0Gw0_JkB3uaKz68sRoy81bvWu1cn8AQ&s'
+        icon: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg'
     },
     {
         name: 'ERP Odoo',
