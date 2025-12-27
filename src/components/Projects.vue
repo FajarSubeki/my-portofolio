@@ -128,7 +128,7 @@ const closeModal = () => {
             <div class="flex items-center justify-between mb-2 mt-5">
               <div class="flex items-center gap-2">
                 <div class="w-5 h-5 rounded-md overflow-hidden flex-shrink-0">
-                  <img src="https://static-00.iconduck.com/assets.00/globe-icon-2048x2048-la3vxx3a.png" alt="icon" class="w-full h-full object-cover" />
+                  <img src="https://cdn-icons-png.freepik.com/512/51/51962.png" alt="icon" class="w-full h-full object-cover" />
                 </div>
                 <h2 class="text-2xl font-bold text-gray-800">Find In :</h2>
               </div>
